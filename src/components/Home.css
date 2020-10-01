@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0 transparent;
+	box-sizing: border-box;
+	outline: none;
+}
+
+.container-home {
+	background-image: url('../logo/background.jpg');
+	position: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.title {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+}
+
+h2 {
+	font-size: 3rem;
+	color: white;
+	margin-bottom: 1rem;
+}
+
+h4 {
+	font-weight: normal;
+}
+
+span {
+	text-decoration: underline;
+}
+

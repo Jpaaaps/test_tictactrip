@@ -1,0 +1,22 @@
+.container-form {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	max-width: 816px;
+	max-height: 550px;
+	padding-top: 1.714rem;
+	margin-bottom: 2.286rem
+}
+
+.form {
+	width: 380px;
+	height: 480px;
+	background-color: white;
+	border-radius: 0.429rem;
+	margin: 1em;
+}
+
+.form-fidel p {
+	color: black;
+}
