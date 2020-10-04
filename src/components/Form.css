@@ -10,13 +10,49 @@
 }
 
 .form {
-	width: 380px;
-	height: 480px;
+	width: 45%;
+	height: 45%;
 	background-color: white;
 	border-radius: 0.429rem;
 	margin: 1em;
+	padding: 32px;
 }
 
-.form-fidel p {
-	color: black;
+p {
+	font-size: 0.9rem;
+	line-height: 1.35rem;
+	max-width: 20.5rem;
+	color: #333333;
 }
+
+.form-fidel {
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 2.286rem;
+}
+
+.logo-form {
+	width: 35px;
+	height: 35px;
+	margin-right: 10px;
+}
+
+#bold {
+	text-decoration: none;
+	font-size: 1.0rem;
+	font-weight: bold;
+	line-height: 1.45rem;
+	color: #21314D;
+}
+
+hr {
+	border: 0.5px solid rgba(71, 71, 71, 0.301);
+}
+
+.logo-dl {
+	width: 140px;
+	height: 70px;
+	margin-right: 10px;
+	background-color: white;
+}
+

@@ -1,0 +1,51 @@
+input{
+	border: 1px solid black;
+	border-radius: 4px;
+	min-height: 56px;
+	width: 100%;
+	letter-spacing: 0px;
+	border-style: solid;
+	background-color: rgba(200, 221, 221, 0.562);
+	font-size: 1.14286rem;
+	line-height: 1.5;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	position: relative;
+	color: #192325a4;
+	border-width: 0px;
+}
+
+.input-cities {
+	margin-bottom: 3em;
+}
+
+.input-days {
+	margin-bottom: 1em;
+}
+
+hr {
+	border: 0.5px solid grey;
+}
+
+button{
+	border: none;
+	cursor: pointer;
+	font-weight: bold;
+	border-radius: 4px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	padding-top: 3px;
+	padding-bottom: 0px;
+	padding-left: 24px;
+	padding-right: 24px;
+	max-width: 100%;
+	font-size: 1.42857rem;
+	line-height: 1.4;
+	letter-spacing: -0.0143rem;
+	color: #FFFFFF;
+	background-color: #00A88F;
+	width: 100%;
+	min-height: 56px;
+}
