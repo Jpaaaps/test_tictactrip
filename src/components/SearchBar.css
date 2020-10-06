@@ -3,9 +3,8 @@ input{
 	border-radius: 4px;
 	min-height: 56px;
 	width: 100%;
-	letter-spacing: 0px;
 	border-style: solid;
-	background-color: rgba(200, 221, 221, 0.562);
+	background-color: rgba(213, 235, 235, 0.562);
 	font-size: 1.14286rem;
 	line-height: 1.5;
 	text-overflow: ellipsis;
@@ -24,8 +23,67 @@ input{
 	margin-bottom: 1em;
 }
 
+.train-from, .train-to {
+	display: flex;
+	align-items: center;
+	background-color: rgba(190, 212, 212, 0.562);
+	border-radius: 4px;
+}
+
+.input-from, .input-to {
+	margin-left: 20px;
+}
+
+label {
+	margin-left: 5px;
+}
+
 hr {
 	border: 0.5px solid grey;
+}
+
+.btn-modal-adult {
+	border: 1px solid black;
+	border-radius: 4px;
+	min-height: 56px;
+	width: 100%;
+	letter-spacing: 0px;
+	border-style: solid;
+	background-color: rgba(200, 221, 221, 0.562);
+	font-size: 1.14286rem;
+	line-height: 1.5;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	position: relative;
+	color: #192325a4;
+	border-width: 0px;
+	margin-bottom: 1em;
+}
+
+.btn-close-modal {
+	background-color: transparent;
+	color: rgb(59, 59, 59);
+}
+
+.modal-choice {
+	display: flex;
+}
+
+.btn-modal-choice {
+	cursor: pointer;
+	background-color: #FFFFFF;
+	border-radius: 0.214rem;
+	border-width: 1px;
+	font-weight: 200;
+	padding: 0.2856rem 0.571rem;
+	width: 32%;
+	border: 1px solid #cfd4d5;
+	color: #192325;
+	margin: 0.1em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 button{
